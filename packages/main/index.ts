@@ -25,6 +25,12 @@ async function createWindow() {
     },
   })
 
+  // Close menu
+  win.setMenu(null)
+
+  // Open DevTool
+  win.webContents.openDevTools() 
+
   if (app.isPackaged) {
     win.loadFile(join(__dirname, '../renderer/index.html'))
   } else {
