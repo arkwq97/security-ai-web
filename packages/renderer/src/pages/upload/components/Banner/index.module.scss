@@ -2,3 +2,11 @@
   height: 100%;
   text-align: center;
 }
+
+.banner-img {
+  background-image: url('../../../../assets/defence1.jpeg');
+  height: 400px;
+  overflow: hidden;
+  background-size:cover;
+  background-position: center center;
+}
